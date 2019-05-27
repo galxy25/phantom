@@ -22,7 +22,7 @@ import (
 
 const (
     headStartMinutes   = 5
-    slowJamzSeconds    = 144000 // 1000 * 60 * 60 * 4  = 4 hours
+    slowJamzSeconds    = 14400 // 60 seconds/minute * 60 minutes/hour * 4 hours
     logIntervalSeconds = 30
 )
 
